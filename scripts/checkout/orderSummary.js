@@ -140,7 +140,7 @@ export function renderOrderSummary() {
   if (cart.length === 0) {
     cartSummaryHTML = `
       <p>Your cart is empty.</p>
-      <a class="view-products-link link-primary" href="amazon.html">
+      <a class="view-products-link link-primary" href="index.html">
         View products
       </a>
     `;

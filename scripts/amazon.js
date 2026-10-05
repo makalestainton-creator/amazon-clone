@@ -56,8 +56,8 @@ function setUpSearch() {
 
     // An empty search takes you back to the full product list
     window.location.href = term
-      ? `amazon.html?search=${encodeURIComponent(term)}`
-      : "amazon.html";
+      ? `index.html?search=${encodeURIComponent(term)}`
+      : "index.html";
   }
 
   searchBtn.addEventListener("click", runSearch);
